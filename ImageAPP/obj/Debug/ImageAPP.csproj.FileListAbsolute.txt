@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\bin\Debug\ImageAPP.exe.config
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\bin\Debug\ImageAPP.exe
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\bin\Debug\ImageAPP.pdb
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.Form1.resources
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.Properties.Resources.resources
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.exe
+C:\Users\HP\source\repos\ImageAPP\ImageAPP\obj\Debug\ImageAPP.pdb
