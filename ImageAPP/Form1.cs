@@ -46,7 +46,7 @@ namespace ImageAPP
 
         private void load_data()
         {
-            cmd = new SqlCommand("SELECT * FROM Table1 ORDER BY ID DESC", conn);
+            cmd = new SqlCommand("SELECT * FROM Table1 ORDER BY ID ASC", conn);
             SqlDataAdapter da = new SqlDataAdapter();
             da.SelectCommand= cmd;
             DataTable dt = new DataTable();
