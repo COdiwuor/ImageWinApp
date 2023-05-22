@@ -40,7 +40,7 @@ namespace ImageAPP
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
-            MessageBox.Show("Picture Inserted Successfully");
+            MessageBox.Show("Data Inserted Successfully");
             load_data();
         }
 
