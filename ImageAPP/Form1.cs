@@ -25,7 +25,7 @@ namespace ImageAPP
         //upload image button
         private void button1_Click(object sender, EventArgs e)
         {
-            openFileDialog1.Filter = "Select  image(*.JPG; *.PNG; *.GIF) | *.JPG; *.PNG; *GIF";
+            openFileDialog1.Filter = "Select image(*.JPG; *.PNG; *.GIF) | *.JPG; *.PNG; *GIF";
             if(openFileDialog1.ShowDialog() == DialogResult.OK) 
             {
                 pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
@@ -109,7 +109,7 @@ namespace ImageAPP
         private void button5_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "JPG(*.JPG) | *.jpg";
+            saveFileDialog.Filter = "JPG(*.JPG) | *.jpg | PNG(*.PNG) | *.png";
 
             if(saveFileDialog.ShowDialog()== DialogResult.OK) 
             {
