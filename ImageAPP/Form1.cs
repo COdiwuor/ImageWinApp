@@ -21,6 +21,8 @@ namespace ImageAPP
 
         SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=images;Integrated Security=True");
         SqlCommand cmd;
+
+        //upload image button
         private void button1_Click(object sender, EventArgs e)
         {
             openFileDialog1.Filter = "Select  image(*.JPG; *.PNG; *.GIF) | *.JPG; *.PNG; *GIF";
@@ -101,6 +103,17 @@ namespace ImageAPP
             textBox1.Text = "";
             id1.Text = "";
         
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "JPG(*.JPG) | *.jpg";
+
+            if(saveFileDialog.ShowDialog()== DialogResult.OK) 
+            {
+                pictureBox1.Image.Save(saveFileDialog.FileName);
+            }
         }
     }
 }
