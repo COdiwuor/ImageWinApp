@@ -105,6 +105,7 @@ namespace ImageAPP
         
         }
 
+        //code to save/download image to the computer
         private void button5_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
