@@ -112,7 +112,7 @@ namespace ImageAPP
             //saveFileDialog.Filter = "JPG(*.JPG) | *.jpg | PNG(*.PNG) | *.png";
             saveFileDialog.Filter = "JPG|*.jpg| PNG| *.png| JPEG| *.jpeg| GIF| *.gif|  ";
 
-            if (saveFileDialog.ShowDialog()== DialogResult.OK) 
+            if (saveFileDialog.ShowDialog() == DialogResult.OK) 
             {
                 pictureBox1.Image.Save(saveFileDialog.FileName);
             }
