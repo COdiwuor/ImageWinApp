@@ -109,9 +109,10 @@ namespace ImageAPP
         private void button5_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "JPG(*.JPG) | *.jpg | PNG(*.PNG) | *.png";
+            //saveFileDialog.Filter = "JPG(*.JPG) | *.jpg | PNG(*.PNG) | *.png";
+            saveFileDialog.Filter = "JPG|*.jpg| PNG| *.png| JPEG| *.jpeg| GIF| *.gif|  ";
 
-            if(saveFileDialog.ShowDialog()== DialogResult.OK) 
+            if (saveFileDialog.ShowDialog()== DialogResult.OK) 
             {
                 pictureBox1.Image.Save(saveFileDialog.FileName);
             }
