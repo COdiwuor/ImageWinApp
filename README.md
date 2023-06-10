@@ -1,7 +1,7 @@
 # ImageWinApp
 A Simple Image App using Windows Forms<br>
 Users can:
-1) Add an image from local computer <br>
+1) Add an image from local computer and save it in the SQL management Studio database <br>
 2) Update an image <br>
 3) Delete an image <br>
 4) Download/Save an image to the local machine<br>
