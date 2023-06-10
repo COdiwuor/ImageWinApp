@@ -143,7 +143,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(173, 23);
             this.button5.TabIndex = 9;
-            this.button5.Text = "Save";
+            this.button5.Text = "Download Image";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
