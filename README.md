@@ -9,4 +9,4 @@ Users can:
 Sample Image
 <br>
 
-![Imageapp](https://github.com/COdiwuor/ImageWinApp/assets/28431746/bd1f19c8-49bf-4cea-b544-262c12b444bc)
+![Imageapp](https://github.com/COdiwuor/ImageWinApp/assets/28431746/5ab80822-c22f-4dac-817b-5f6e14bd54ac)
