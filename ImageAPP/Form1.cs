@@ -110,7 +110,7 @@ namespace ImageAPP
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             //saveFileDialog.Filter = "JPG(*.JPG) | *.jpg | PNG(*.PNG) | *.png";
-            saveFileDialog.Filter = "JPG|*.jpg| PNG| *.png| JPEG| *.jpeg| GIF| *.gif| TXT| *.txt ";
+            saveFileDialog.Filter = "JPG|*.jpg|PNG| *.png|JPEG| *.jpeg|GIF| *.gif|TXT| *.txt ";
 
             if (saveFileDialog.ShowDialog() == DialogResult.OK) 
             {
